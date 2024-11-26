@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Langridge - Lyno Method Practitioner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/lyno-icon.png') }}">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="{{ url_for('static', filename='images/lyno-icon.png') }}" alt="Lyno Method" class="hero-logo">
+            <h1>Transform Your Movement with the Lyno Method</h1>
+            <p>Not moving as well as you want to? Old injuries keep resurfacing? Time to try something different.</p>
+            <a href="https://calendly.com/waynebruton/contemplation-consultation" class="cta-button" target="_blank">Book Your Assessment</a>
+        </div>
+    </section>
+
+    <section class="section about">
+        <div class="container">
+            <h2>The Lyno Method: Treat the Cause, Not the Symptom</h2>
+            <p>The Lyno Method was specifically developed to correct, release and remove compensation patterns, caused by injuries that often chronically recur. We align the body to neutral, through the gentle release of locked fascia, which is often the part of the body that retains the pattern of trauma.</p>
+            
+            <div class="image-gallery">
+                <img src="{{ url_for('static', filename='images/lyno1.jpg') }}" alt="Lyno Method Treatment" class="gallery-image">
+                <img src="{{ url_for('static', filename='images/lyno2.jpg') }}" alt="Lyno Method Assessment" class="gallery-image">
+                <img src="{{ url_for('static', filename='images/lyno3.jpg') }}" alt="Lyno Method Therapy" class="gallery-image">
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Bunkie Test</h3>
+                    <p>5 bodyweight exercises to assess your movement patterns and identify areas of concern.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>FROM Tests</h3>
+                    <p>Range of movement discrepancy tests to evaluate your body's mobility and limitations.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Soft-Touch Fascia Release</h3>
+                    <p>Gentle techniques to release locked fascia and restore natural movement patterns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section journey-section">
+        <div class="container">
+            <div class="method-card">
+                <h3>Your Journey to Better Movement</h3>
+                <p>We begin with a comprehensive initial assessment that includes:</p>
+                <ul>
+                    <li>Full movement analysis using our 3-prong approach</li>
+                    <li>Detailed investigation of your injury history</li>
+                    <li>Assessment of your movement habits</li>
+                    <li>Approximately 90-minute session</li>
+                </ul>
+                <p>Most clients experience long-lasting results from the 3rd session onwards, though individual responses may vary.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2>Ready to Transform Your Movement?</h2>
+            <p>Book your initial assessment today and take the first step towards better movement and lasting relief.</p>
+            <a href="mailto:james22.lyno@gmail.com" class="cta-button">Contact James</a>
+        </div>
+    </section>
+</body>
+</html>
